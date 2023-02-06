@@ -31,6 +31,9 @@ p{
   color: #40514e;
   font-family: 'Montserrat', sans-serif;
 }
+footer {
+  background-color: #F8EAD8;
+}
 .intro-heading {
   margin: 0;
 }
@@ -124,19 +127,21 @@ text-decoration: none;
   margin-top: 50px;
 }
 #contact-container {
-  background-color: #F8EAD8;
+
   padding-top: 4%;
   padding-bottom: 6%;
+ margin: 0 auto 0 auto;
+  width: 50%;
 }
 .contact-title {
   margin-top: 0;
   color: #F8CBA6;
 }
 .link-img {
-  width: 2%;
-  height: 2%;
+  width: 4%;
+  height: 4%;
   border-radius: 100%;
-  margin: 0 2% 0 2%;
+  margin: 0 4% 0 4%;
 }
 .link-email {
   text-decoration: none;
@@ -148,6 +153,7 @@ text-decoration: none;
 .email-p {
   color: #F0997D;
   margin: 0;
+  font-size: 100%;
 }
 .link-img:hover {
   background-color: #FFFBEB;
@@ -156,4 +162,18 @@ text-decoration: none;
 .phone-p {
   color: #F0997D ;
   margin: 1% 0 5% 0;
+  font-size: 100%;
+}
+.link-phone {
+  text-decoration: none;
+  color: #F0997D;
+}
+.link-phone:hover {
+  color: #FFFBEB ;
+}
+.copyright-txt {
+  color: black;
+  font-weight: bold;
+  margin: 3% 0 0 0;
+  
 }
